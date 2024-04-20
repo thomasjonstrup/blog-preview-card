@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title='Frontend Mentor | Blog preview card'>
+	<main>
+		<Card
+			tags={['Learning']}
+			title='HTML & CSS foundations'
+			body='These languages are the backbone of every website, defining structure, content, and presentation. Greg Hooper'
+			published='21 Dec 2023'
+			by='Greg Hooper'
+		/>
+	</main>
+	<footer>
+		<div class='p-2 text-center text-sm'>
+			Challenge by <a
+				class='text-dark-raspberry hover:underline'
+				href='https://www.frontendmentor.io?ref=challenge'
+				target='_blank'>Frontend Mentor</a
+			>. Coded by <a href='https://github.com/thomasjonstrup'
+				>Thomas Jonstrup</a
+			>.
+		</div>
+	</footer>
+</Layout>

@@ -1,0 +1,51 @@
+---
+import {Image} from 'astro:assets';
+import ImageIllustrationArticle from '../assets/images/illustration-article.svg';
+import ImageAvatar from '../assets/images/image-avatar.webp';
+
+interface Props {
+	tags: string[];
+	title: string;
+	body: string;
+	published: string;
+	by: string;
+}
+
+const {by, tags, title, body, published} = Astro.props;
+---
+
+<article
+	class='bg-white text-black p-6 rounded-2xl shadow-3xl max-w-[20em] boxsh'
+>
+	<div class='rounded-xl overflow-hidden'>
+		<Image src={ImageIllustrationArticle} alt='Image of article' />
+	</div>
+	<div class='py-2'>
+		<div class='py-2'>
+			{
+				tags.map((item) => {
+					return (
+						<span class='text-black text-xs font-bold me-2 px-2.5 py-1 rounded bg-yellow'>
+							{item}
+						</span>
+					);
+				})
+			}
+		</div>
+		<p class='py-2 text-xs font-medium'>{published}</p>
+		<h2 class='py-2 font-black text-xl'>
+			{title}
+		</h2>
+		<p class='py-1 pb-4 text-grey text-sm font-medium'>
+			{body}
+		</p>
+		<div class='flex items-center gap-2'>
+			<Image
+				src={ImageAvatar}
+				class='w-[32px] h-[32px] rounded-full'
+				alt={`Image of ${by}`}
+			/>
+			<p class='text-xs font-black'>{by}</p>
+		</div>
+	</div>
+</article>
