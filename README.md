@@ -33,8 +33,10 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL:
+    [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-astrojs-and-tailwind-blog-preview-card-KbtzEq_h5k)
+-   Live Site URL:
+    [Add live site URL here](https://blog-preview-card-tj.netlify.app/)
 
 ## My process
 
@@ -58,4 +60,4 @@ Training my skills in tailwind and astro
 
 -   Website - [thomasjonstrup](https://thomasjonstrup.dk)
 -   Frontend Mentor -
-    [@yourusername](https://www.frontendmentor.io/profile/thomasjonstrup)
+    [@thomasjonstrup](https://www.frontendmentor.io/profile/thomasjonstrup)
