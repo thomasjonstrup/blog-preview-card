@@ -13,7 +13,7 @@
     "@astrojs/check": "^0.5.10",
     "@astrojs/tailwind": "^5.1.0",
     "@fontsource-variable/figtree": "5.0.20",
-    "astro": "^4.6.3",
+    "astro": "^4.7.0",
     "clsx": "2.1.0",
     "sharp": "0.33.3",
     "typescript": "^5.4.5"
